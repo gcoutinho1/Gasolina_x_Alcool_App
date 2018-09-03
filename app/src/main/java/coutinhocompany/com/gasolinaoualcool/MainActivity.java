@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // localizar componentes na tela
+        // localizar componentes na TELA
 
         precoAlcool = findViewById(R.id.precoAlcoolid);
         precoGasolina = findViewById(R.id.precoGasolinaid);

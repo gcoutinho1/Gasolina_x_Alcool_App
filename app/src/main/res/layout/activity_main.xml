@@ -76,6 +76,5 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="142dp"
         android:layout_marginEnd="-191dp"
-        android:text="TextView"
         android:textColor="#415C00" />
 </RelativeLayout>
