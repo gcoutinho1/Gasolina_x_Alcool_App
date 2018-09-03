@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GasolinaOuAlcool</string>
+    <string name="texto_botao_verificar">Verificar</string>
+    <string name="preco_do_alcool">Preço do Alcool</string>
+    <string name="preco_da_gasolina">Preço da Gasolina</string>
+    <string name="LOGO">logo</string>
+
+</resources>

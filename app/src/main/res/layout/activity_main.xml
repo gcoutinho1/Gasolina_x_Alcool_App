@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94bd31"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:contentDescription="@string/LOGO"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="169dp"
+        android:text="@string/preco_do_alcool"
+        android:textColor="#415C00" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/precoGasolinaid"
+        android:layout_alignTop="@+id/textView"
+        android:text="@string/preco_da_gasolina"
+        android:textColor="#415C00" />
+
+    <EditText
+        android:id="@+id/precoAlcoolid"
+        android:layout_width="109dp"
+        android:layout_height="33dp"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/precoGasolinaid"
+        android:layout_width="109dp"
+        android:layout_height="33dp"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_marginEnd="7dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/botaoVerificarid"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="218dp"
+        android:text="@string/texto_botao_verificar" />
+
+    <TextView
+        android:id="@+id/textoResultadoid"
+        android:layout_width="291dp"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="142dp"
+        android:layout_marginEnd="-191dp"
+        android:text="TextView"
+        android:textColor="#415C00" />
+</RelativeLayout>
