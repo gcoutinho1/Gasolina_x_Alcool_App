@@ -19,16 +19,18 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="108dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/imageView"
         android:layout_marginTop="169dp"
         android:text="@string/preco_do_alcool"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#415C00" />
 
     <TextView
         android:id="@+id/textView2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/precoGasolinaid"
@@ -70,6 +72,7 @@
 
     <TextView
         android:id="@+id/textoResultadoid"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:layout_width="291dp"
         android:layout_height="35dp"
         android:layout_alignEnd="@+id/textView"
