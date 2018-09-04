@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+    /** created by Guilherme Coutinho **/
+
 public class MainActivity extends AppCompatActivity {
     private EditText precoAlcool;
     private EditText precoGasolina;
